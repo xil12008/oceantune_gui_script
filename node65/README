@@ -1,0 +1,6 @@
+script start.sh <ip address> <node id>
+replace the MACRO item with specific value
+mirror.engr.uconn.edu => <ip address>
+65 => <node id>
+and initial the telnet_none_filtering.sh for telnet connection.
+

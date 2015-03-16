@@ -1,0 +1,771 @@
+Trying 137.99.1.212...
+Connected to mirror.engr.uconn.edu.
+Escape character is '^]'.
+Debian GNU/Linux 6.0
+mirror login: oceantune
+Password: 
+Last login: Mon Mar 16 10:37:22 EDT 2015 from husky.engr.uconn.edu on pts/0
+Linux mirror 2.6.32-5-686 #1 SMP Mon Sep 23 23:00:18 UTC 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+]0;oceantune@mirror: ~oceantune@mirror:~$ cd /home/oceantune
+]0;oceantune@mirror: ~oceantune@mirror:~$ su - oceantuneuser
+Password: 
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ ls
+oceantuneuser@mirror:~$ pwd
+/home2/oceantuneuser
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ pwd
+/home2/oceantuneuser
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   2036   736 ?        Ss   Mar14   0:03 init [2]  
+root         2  0.0  0.0      0     0 ?        S    Mar14   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S    Mar14   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/1]
+root         7  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksoftirqd/1]
+root         8  0.0  0.0      0     0 ?        S    Mar14   0:00 [watchdog/1]
+root         9  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/2]
+root        10  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksoftirqd/2]
+root        11  0.0  0.0      0     0 ?        S    Mar14   0:00 [watchdog/2]
+root        12  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/3]
+root        13  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksoftirqd/3]
+root        14  0.0  0.0      0     0 ?        S    Mar14   0:00 [watchdog/3]
+root        15  0.0  0.0      0     0 ?        S    Mar14   0:00 [events/0]
+root        16  0.0  0.0      0     0 ?        S    Mar14   0:00 [events/1]
+root        17  0.0  0.0      0     0 ?        S    Mar14   0:00 [events/2]
+root        18  0.0  0.0      0     0 ?        S    Mar14   0:00 [events/3]
+root        19  0.0  0.0      0     0 ?        S    Mar14   0:00 [cpuset]
+root        20  0.0  0.0      0     0 ?        S    Mar14   0:00 [khelper]
+root        21  0.0  0.0      0     0 ?        S    Mar14   0:00 [netns]
+root        22  0.0  0.0      0     0 ?        S    Mar14   0:00 [async/mgr]
+root        23  0.0  0.0      0     0 ?        S    Mar14   0:00 [pm]
+root        24  0.0  0.0      0     0 ?        S    Mar14   0:00 [sync_supers]
+root        25  0.0  0.0      0     0 ?        S    Mar14   0:00 [bdi-default]
+root        26  0.0  0.0      0     0 ?        S    Mar14   0:00 [kintegrityd/0]
+root        27  0.0  0.0      0     0 ?        S    Mar14   0:00 [kintegrityd/1]
+root        28  0.0  0.0      0     0 ?        S    Mar14   0:00 [kintegrityd/2]
+root        29  0.0  0.0      0     0 ?        S    Mar14   0:00 [kintegrityd/3]
+root        30  0.0  0.0      0     0 ?        S    Mar14   0:00 [kblockd/0]
+root        31  0.0  0.0      0     0 ?        S    Mar14   0:00 [kblockd/1]
+root        32  0.0  0.0      0     0 ?        S    Mar14   0:00 [kblockd/2]
+root        33  0.0  0.0      0     0 ?        S    Mar14   0:00 [kblockd/3]
+root        34  0.0  0.0      0     0 ?        S    Mar14   0:00 [kacpid]
+root        35  0.0  0.0      0     0 ?        S    Mar14   0:00 [kacpi_notify]
+root        36  0.0  0.0      0     0 ?        S    Mar14   0:00 [kacpi_hotplug]
+root        37  0.0  0.0      0     0 ?        S    Mar14   0:00 [kseriod]
+root        42  0.0  0.0      0     0 ?        S    Mar14   0:00 [kondemand/0]
+root        43  0.0  0.0      0     0 ?        S    Mar14   0:00 [kondemand/1]
+root        44  0.0  0.0      0     0 ?        S    Mar14   0:00 [kondemand/2]
+root        45  0.0  0.0      0     0 ?        S    Mar14   0:00 [kondemand/3]
+root        46  0.0  0.0      0     0 ?        S    Mar14   0:00 [khungtaskd]
+root        47  0.0  0.0      0     0 ?        S    Mar14   0:00 [kswapd0]
+root        48  0.0  0.0      0     0 ?        SN   Mar14   0:00 [ksmd]
+root        49  0.0  0.0      0     0 ?        S    Mar14   0:00 [aio/0]
+root        50  0.0  0.0      0     0 ?        S    Mar14   0:00 [aio/1]
+root        51  0.0  0.0      0     0 ?        S    Mar14   0:00 [aio/2]
+root        52  0.0  0.0      0     0 ?        S    Mar14   0:00 [aio/3]
+root        53  0.0  0.0      0     0 ?        S    Mar14   0:00 [crypto/0]
+root        54  0.0  0.0      0     0 ?        S    Mar14   0:00 [crypto/1]
+root        55  0.0  0.0      0     0 ?        S    Mar14   0:00 [crypto/2]
+root        56  0.0  0.0      0     0 ?        S    Mar14   0:00 [crypto/3]
+root       197  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksuspend_usbd]
+root       198  0.0  0.0      0     0 ?        S    Mar14   0:00 [khubd]
+root       199  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata/0]
+root       200  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata/1]
+root       201  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata/2]
+root       202  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata/3]
+root       203  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata_aux]
+root       204  0.0  0.0      0     0 ?        S    Mar14   0:00 [scsi_eh_0]
+root       205  0.0  0.0      0     0 ?        S    Mar14   0:00 [scsi_eh_1]
+root       208  0.0  0.0      0     0 ?        S    Mar14   0:00 [scsi_eh_2]
+root       209  0.0  0.0      0     0 ?        S    Mar14   0:00 [scsi_eh_3]
+root       260  0.0  0.0      0     0 ?        S    Mar14   0:00 [kstriped]
+root       277  0.0  0.0      0     0 ?        S    Mar14   0:00 [usbhid_resume]
+root       288  0.0  0.0      0     0 ?        S    Mar14   0:04 [kjournald]
+root       305  0.0  0.0      0     0 ?        S    Mar14   0:00 [flush-8:16]
+root       367  0.0  0.0   2680  1128 ?        S<s  Mar14   0:00 udevd --daemon
+root       662  0.0  0.0      0     0 ?        S    Mar14   0:01 [edac-poller]
+root       740  0.0  0.0      0     0 ?        S    Mar14   0:00 [nouveau/0]
+root       741  0.0  0.0      0     0 ?        S    Mar14   0:00 [nouveau/1]
+root       742  0.0  0.0      0     0 ?        S    Mar14   0:00 [nouveau/2]
+root       743  0.0  0.0      0     0 ?        S    Mar14   0:00 [nouveau/3]
+root       745  0.0  0.0      0     0 ?        S    Mar14   0:00 [ttm_swap]
+root       932  0.0  0.0      0     0 ?        S    Mar14   0:00 [firewire_sbp2]
+root       996  0.0  0.0      0     0 ?        S    Mar14   0:00 [kjournald]
+root       997  0.0  0.0      0     0 ?        S    Mar14   0:00 [kjournald]
+daemon    1050  0.0  0.0   1812   548 ?        Ss   Mar14   0:00 /sbin/portmap
+statd     1062  0.0  0.0   1940   816 ?        Ss   Mar14   0:00 /sbin/rpc.statd
+root      1361  0.0  0.0  13240  1720 ?        Ss   Mar14   0:01 /usr/bin/vmware
+root      1364  0.0  0.0  28600  1792 ?        Sl   Mar14   0:06 /usr/sbin/rsysl
+root      1388  0.0  0.1  14468  2260 ?        S    Mar14   0:00 /usr/lib/vmware
+101       1389  0.0  0.0   2856  1168 ?        Ss   Mar14   0:00 /usr/bin/dbus-d
+root      1406  0.0  0.1  15848  3720 ?        Ssl  Mar14   0:00 /usr/sbin/Netwo
+root      1412  0.0  0.1   4180  2408 ?        S    Mar14   0:00 /usr/sbin/modem
+root      1426  0.0  0.0   4764  1724 ?        S    Mar14   0:00 /sbin/wpa_suppl
+root      1427  0.0  0.0   2332  1116 ?        S    Mar14   0:00 /sbin/dhclient
+root      1430  0.0  0.0   1704   608 ?        Ss   Mar14   0:00 /usr/sbin/acpid
+root      1446  0.0  0.2  11484  5192 ?        Ss   Mar14   0:02 /usr/sbin/apach
+root      1551  0.0  0.0   6824  1056 ?        Ss   Mar14   0:08 /usr/sbin/kerne
+daemon    1571  0.0  0.0   2160   416 ?        Ss   Mar14   0:00 /usr/sbin/atd
+avahi     1582  0.0  0.0   3088  1748 ?        S    Mar14   0:41 avahi-daemon: r
+avahi     1583  0.0  0.0   2840   476 ?        S    Mar14   0:00 avahi-daemon: c
+root      1594  0.0  0.0   4016  1788 ?        Ss   Mar14   0:00 /usr/sbin/bluet
+root      1603  0.0  0.0      0     0 ?        S    Mar14   0:00 [bluetooth]
+root      1608  0.0  0.0   5500   980 ?        Ss   Mar14   0:04 /usr/sbin/sshd
+root      1635  0.0  0.0   1876   628 ?        Ss   Mar14   0:00 /usr/sbin/inetd
+root      1648  0.0  0.1  16160  2636 ?        Sl   Mar14   0:00 /usr/sbin/gdm3
+root      1667  0.0  0.1  18408  3396 ?        Sl   Mar14   0:00 /usr/lib/gdm3/g
+root      1675  0.0  0.0      0     0 ?        S    Mar14   0:00 [kconservative]
+root      1676  0.0  0.0      0     0 ?        S    Mar14   0:00 [kconservative]
+root      1677  0.0  0.0      0     0 ?        S    Mar14   0:00 [kconservative]
+root      1678  0.0  0.0      0     0 ?        S    Mar14   0:00 [kconservative]
+root      1679  0.0  0.0      0     0 ?        S    Mar14   0:00 [iprt/0]
+root      1681  0.0  0.0      0     0 ?        S    Mar14   0:00 [iprt/1]
+root      1683  0.0  0.0      0     0 ?        S    Mar14   0:00 [iprt/2]
+root      1684  0.0  0.0      0     0 ?        S    Mar14   0:00 [iprt/3]
+root      1691  0.0  0.0      0     0 ?        S<   Mar14   0:00 [krfcommd]
+root      1731  0.0  0.0   3812   948 ?        Ss   Mar14   0:00 /usr/sbin/cron
+root      1742  0.0  0.6  19020 13376 tty7     Ss+  Mar14   0:07 /usr/bin/Xorg :
+root      1826  0.0  0.0   2680  1236 ?        S    Mar14   0:00 /bin/sh /usr/bi
+root      1863  0.0  0.0   2676  1036 ?        S<   Mar14   0:00 udevd --daemon
+root      1865  0.0  0.0   2676  1032 ?        S<   Mar14   0:00 udevd --daemon
+root      1960  0.0  0.1   6580  2400 ?        Ss   Mar14   0:00 /usr/sbin/cupsd
+root      1985  0.0  0.0      0     0 ?        S    Mar14   0:00 [rpciod/0]
+root      1986  0.0  0.0      0     0 ?        S    Mar14   0:00 [rpciod/1]
+root      1987  0.0  0.0      0     0 ?        S    Mar14   0:00 [rpciod/2]
+root      1988  0.0  0.0      0     0 ?        S    Mar14   0:00 [rpciod/3]
+root      2055  0.0  0.0      0     0 ?        S<   Mar14   0:00 [kslowd000]
+root      2056  0.0  0.0      0     0 ?        S<   Mar14   0:00 [kslowd001]
+mysql     2058  0.0  0.8 137192 18076 ?        Sl   Mar14   0:21 /usr/sbin/mysql
+root      2059  0.0  0.0   1672   564 ?        S    Mar14   0:00 logger -t mysql
+root      2061  0.0  0.0      0     0 ?        S    Mar14   0:00 [nfsiod]
+root      2074  0.0  0.0  38828   896 ?        Ssl  Mar14   0:00 /usr/lib/vmware
+root      2084  0.0  0.0      0     0 ?        S    Mar14   0:00 [lockd]
+root      2113  0.0  0.0   2196   544 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+root      2144  0.0  0.1  18424  3172 ?        Sl   Mar14   0:00 /usr/sbin/conso
+root      2222  0.0  0.0   2168   260 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+106       2272  0.0  0.0   2704   924 ?        Ss   Mar14   0:00 /usr/bin/dbus-d
+106       2273  0.0  0.3  30412  7864 ?        Ssl  Mar14   0:00 /usr/bin/gnome-
+root      2314  0.0  0.1   5480  2924 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+root      2534  0.0  0.0   2848  1012 ?        S    Mar14   0:00 /usr/bin/vmnet-
+root      2549  0.0  0.0   2168   256 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+102       2562  0.0  0.0   6540   928 ?        Ss   Mar14   0:00 /usr/sbin/exim4
+root      2570  0.0  0.1   5480  2928 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+106       2573  0.0  0.2   7864  4440 ?        S    Mar14   0:00 /usr/lib/libgco
+root      2596  0.0  0.0  12884   660 ?        Ss   Mar14   0:01 /usr/sbin/vmwar
+106       2708  0.0  0.2  15060  5120 ?        S    Mar14   0:01 /usr/lib/at-spi
+106       2725  0.0  0.5  83032 11792 ?        Ss   Mar14   0:03 /usr/lib/gnome-
+106       2737  0.0  0.1  25312  3200 ?        Ssl  Mar14   0:00 /usr/lib/bonobo
+106       2740  0.0  0.0   6716  1992 ?        S    Mar14   0:00 /usr/lib/gvfs/g
+106       2743  0.0  0.5  90232 10532 ?        S    Mar14   0:00 metacity
+106       2744  0.0  0.6  92016 14304 ?        S    Mar14   0:06 /usr/lib/gdm3/g
+106       2745  0.0  0.4  22824  8720 ?        S    Mar14   0:01 gnome-power-man
+106       2746  0.0  0.3  22404  7604 ?        S    Mar14   0:00 /usr/lib/policy
+root      2747  0.0  0.1   7940  2260 ?        S    Mar14   0:00 /usr/lib/gdm3/g
+root      2749  0.0  0.1   6100  3624 ?        S    Mar14   0:00 /usr/lib/policy
+root      2751  0.0  0.1   7884  3116 ?        S    Mar14   0:00 /usr/lib/upower
+root      2821  0.0  3.2 130436 68084 ?        Sl   Mar14   0:34 /usr/lib/vmware
+root      2837  0.0  0.0   1708   560 tty1     Ss+  Mar14   0:00 /sbin/getty 384
+root      2838  0.0  0.0   1708   560 tty2     Ss+  Mar14   0:00 /sbin/getty 384
+root      2839  0.0  0.0   1708   564 tty3     Ss+  Mar14   0:00 /sbin/getty 384
+root      2840  0.0  0.0   1708   560 tty4     Ss+  Mar14   0:00 /sbin/getty 384
+root      2841  0.0  0.0   1708   564 tty5     Ss+  Mar14   0:00 /sbin/getty 384
+root      2842  0.0  0.0   1708   564 tty6     Ss+  Mar14   0:00 /sbin/getty 384
+www-data  9085  0.0  0.1  10980  2432 ?        S    Mar15   0:00 /usr/sbin/apach
+www-data  9111  0.0  0.2 233380  4832 ?        Sl   Mar15   0:00 /usr/sbin/apach
+www-data  9167  0.0  0.2 233380  4852 ?        Sl   Mar15   0:00 /usr/sbin/apach
+root     31257  0.0  0.0   2088   936 ?        Ss   10:39   0:00 in.telnetd: hus
+root     31258  0.0  0.0   2992  1652 pts/0    Ss   10:39   0:00 login -h husky.
+1008     31262  0.0  0.3   9556  6892 pts/0    S    10:39   0:00 -bash
+1025     31291  0.0  0.0   4380  1516 pts/0    S    10:39   0:00 su - oceantuneu
+1025     31298  0.0  0.1   6692  4020 pts/0    S    10:39   0:00 -su
+root     31328  0.0  0.0   2088   936 ?        Ss   10:40   0:00 in.telnetd: hus
+root     31329  0.0  0.0   2992  1644 pts/1    Ss   10:40   0:00 login -h husky.
+1008     31334  0.0  0.3   9556  6888 pts/1    S    10:40   0:00 -bash
+1025     31363  0.0  0.0   4380  1516 pts/1    S    10:40   0:00 su - oceantuneu
+1025     31372  0.0  0.1   6692  4028 pts/1    S+   10:41   0:00 -su
+root     32047  2.5  0.1   7624  2912 ?        Ss   11:14   0:00 sshd: root [pri
+sshd     32048  0.2  0.0   6844  1176 ?        S    11:14   0:00 sshd: root [net
+1025     32053  0.0  0.0   3872  1052 pts/0    R+   11:15   0:00 ps aux
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ la
+-su: la: command not found
+oceantuneuser@mirror:~$ ls
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ ls -la
+total 8
+drwxr-xr-x  2 root root 4096 Jan 14 13:06 .
+drwxrwxrwt 12 root root 4096 Feb 27 13:30 ..
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ ls / -al
+total 108
+drwxr-xr-x  23 root root  4096 Jul 13  2014 .
+drwxr-xr-x  23 root root  4096 Jul 13  2014 ..
+drwxr-xr-x   2 root root  4096 Aug 18  2014 bin
+drwxr-xr-x   3 root root  4096 Apr  8  2014 boot
+drwxr-xr-x  11 root root  4096 Dec  3 11:05 data
+drwxr-xr-x  19 root root  3640 Mar 14 20:16 dev
+drwxr-xr-x 140 root root 12288 Mar 14 20:16 etc
+drwxr-xr-x  18 root root  4096 Feb 26 11:31 home
+drwxrwxrwt  12 root root  4096 Feb 27 13:30 home2
+lrwxrwxrwx   1 root root    28 Apr 14  2013 initrd.img -> boot/initrd.img-2.6.32-5-686
+drwxr-xr-x  13 root root 12288 Apr 24  2013 lib
+drwx------   2 root root 16384 Apr 14  2013 lost+found
+drwxr-xr-x   6 root root  4096 Sep 13  2014 media
+drwxr-xr-x   5 root root  4096 Feb 26 11:41 mnt
+drwxr-xr-x   2 root root  4096 Apr 14  2013 opt
+dr-xr-xr-x 183 root root     0 Mar 14 20:15 proc
+drwx------  17 root root  4096 Feb 26 16:24 root
+drwxr-xr-x   2 root root  4096 Apr  8  2014 sbin
+drwxr-xr-x   3 root root  4096 May 12  2013 srv
+drwxr-xr-x  12 root root     0 Mar 14 20:15 sys
+drwxrwxrwt   7 root root  4096 Mar 16 11:40 tmp
+drwxr-xr-x   2 root root  4096 Apr 14  2013 .ure
+drwxr-xr-x  11 root root  4096 Apr 14  2013 usr
+drwxr-xr-x  15 root root  4096 Apr 28  2013 var
+lrwxrwxrwx   1 root root    25 Apr 14  2013 vmlinuz -> boot/vmlinuz-2.6.32-5-686
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   2036   736 ?        Ss   Mar14   0:03 init [2]  
+root         2  0.0  0.0      0     0 ?        S    Mar14   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S    Mar14   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/1]
+root         7  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksoftirqd/1]
+root         8  0.0  0.0      0     0 ?        S    Mar14   0:00 [watchdog/1]
+root         9  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/2]
+root        10  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksoftirqd/2]
+root        11  0.0  0.0      0     0 ?        S    Mar14   0:00 [watchdog/2]
+root        12  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/3]
+root        13  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksoftirqd/3]
+root        14  0.0  0.0      0     0 ?        S    Mar14   0:00 [watchdog/3]
+root        15  0.0  0.0      0     0 ?        S    Mar14   0:00 [events/0]
+root        16  0.0  0.0      0     0 ?        S    Mar14   0:00 [events/1]
+root        17  0.0  0.0      0     0 ?        S    Mar14   0:00 [events/2]
+root        18  0.0  0.0      0     0 ?        S    Mar14   0:00 [events/3]
+root        19  0.0  0.0      0     0 ?        S    Mar14   0:00 [cpuset]
+root        20  0.0  0.0      0     0 ?        S    Mar14   0:00 [khelper]
+root        21  0.0  0.0      0     0 ?        S    Mar14   0:00 [netns]
+root        22  0.0  0.0      0     0 ?        S    Mar14   0:00 [async/mgr]
+root        23  0.0  0.0      0     0 ?        S    Mar14   0:00 [pm]
+root        24  0.0  0.0      0     0 ?        S    Mar14   0:00 [sync_supers]
+root        25  0.0  0.0      0     0 ?        S    Mar14   0:00 [bdi-default]
+root        26  0.0  0.0      0     0 ?        S    Mar14   0:00 [kintegrityd/0]
+root        27  0.0  0.0      0     0 ?        S    Mar14   0:00 [kintegrityd/1]
+root        28  0.0  0.0      0     0 ?        S    Mar14   0:00 [kintegrityd/2]
+root        29  0.0  0.0      0     0 ?        S    Mar14   0:00 [kintegrityd/3]
+root        30  0.0  0.0      0     0 ?        S    Mar14   0:00 [kblockd/0]
+root        31  0.0  0.0      0     0 ?        S    Mar14   0:00 [kblockd/1]
+root        32  0.0  0.0      0     0 ?        S    Mar14   0:00 [kblockd/2]
+root        33  0.0  0.0      0     0 ?        S    Mar14   0:00 [kblockd/3]
+root        34  0.0  0.0      0     0 ?        S    Mar14   0:00 [kacpid]
+root        35  0.0  0.0      0     0 ?        S    Mar14   0:00 [kacpi_notify]
+root        36  0.0  0.0      0     0 ?        S    Mar14   0:00 [kacpi_hotplug]
+root        37  0.0  0.0      0     0 ?        S    Mar14   0:00 [kseriod]
+root        42  0.0  0.0      0     0 ?        S    Mar14   0:00 [kondemand/0]
+root        43  0.0  0.0      0     0 ?        S    Mar14   0:00 [kondemand/1]
+root        44  0.0  0.0      0     0 ?        S    Mar14   0:00 [kondemand/2]
+root        45  0.0  0.0      0     0 ?        S    Mar14   0:00 [kondemand/3]
+root        46  0.0  0.0      0     0 ?        S    Mar14   0:00 [khungtaskd]
+root        47  0.0  0.0      0     0 ?        S    Mar14   0:00 [kswapd0]
+root        48  0.0  0.0      0     0 ?        SN   Mar14   0:00 [ksmd]
+root        49  0.0  0.0      0     0 ?        S    Mar14   0:00 [aio/0]
+root        50  0.0  0.0      0     0 ?        S    Mar14   0:00 [aio/1]
+root        51  0.0  0.0      0     0 ?        S    Mar14   0:00 [aio/2]
+root        52  0.0  0.0      0     0 ?        S    Mar14   0:00 [aio/3]
+root        53  0.0  0.0      0     0 ?        S    Mar14   0:00 [crypto/0]
+root        54  0.0  0.0      0     0 ?        S    Mar14   0:00 [crypto/1]
+root        55  0.0  0.0      0     0 ?        S    Mar14   0:00 [crypto/2]
+root        56  0.0  0.0      0     0 ?        S    Mar14   0:00 [crypto/3]
+root       197  0.0  0.0      0     0 ?        S    Mar14   0:00 [ksuspend_usbd]
+root       198  0.0  0.0      0     0 ?        S    Mar14   0:00 [khubd]
+root       199  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata/0]
+root       200  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata/1]
+root       201  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata/2]
+root       202  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata/3]
+root       203  0.0  0.0      0     0 ?        S    Mar14   0:00 [ata_aux]
+root       204  0.0  0.0      0     0 ?        S    Mar14   0:00 [scsi_eh_0]
+root       205  0.0  0.0      0     0 ?        S    Mar14   0:00 [scsi_eh_1]
+root       208  0.0  0.0      0     0 ?        S    Mar14   0:00 [scsi_eh_2]
+root       209  0.0  0.0      0     0 ?        S    Mar14   0:00 [scsi_eh_3]
+root       260  0.0  0.0      0     0 ?        S    Mar14   0:00 [kstriped]
+root       277  0.0  0.0      0     0 ?        S    Mar14   0:00 [usbhid_resume]
+root       288  0.0  0.0      0     0 ?        S    Mar14   0:04 [kjournald]
+root       305  0.0  0.0      0     0 ?        S    Mar14   0:00 [flush-8:16]
+1025       329  0.0  0.0   3872  1040 pts/0    R+   11:50   0:00 ps aux
+root       367  0.0  0.0   2680  1128 ?        S<s  Mar14   0:00 udevd --daemon
+root       662  0.0  0.0      0     0 ?        S    Mar14   0:01 [edac-poller]
+root       740  0.0  0.0      0     0 ?        S    Mar14   0:00 [nouveau/0]
+root       741  0.0  0.0      0     0 ?        S    Mar14   0:00 [nouveau/1]
+root       742  0.0  0.0      0     0 ?        S    Mar14   0:00 [nouveau/2]
+root       743  0.0  0.0      0     0 ?        S    Mar14   0:00 [nouveau/3]
+root       745  0.0  0.0      0     0 ?        S    Mar14   0:00 [ttm_swap]
+root       932  0.0  0.0      0     0 ?        S    Mar14   0:00 [firewire_sbp2]
+root       996  0.0  0.0      0     0 ?        S    Mar14   0:00 [kjournald]
+root       997  0.0  0.0      0     0 ?        S    Mar14   0:00 [kjournald]
+daemon    1050  0.0  0.0   1812   548 ?        Ss   Mar14   0:00 /sbin/portmap
+statd     1062  0.0  0.0   1940   816 ?        Ss   Mar14   0:00 /sbin/rpc.statd
+root      1361  0.0  0.0  13240  1720 ?        Ss   Mar14   0:01 /usr/bin/vmware
+root      1364  0.0  0.0  28600  1792 ?        Sl   Mar14   0:06 /usr/sbin/rsysl
+root      1388  0.0  0.1  14468  2260 ?        S    Mar14   0:00 /usr/lib/vmware
+101       1389  0.0  0.0   2856  1168 ?        Ss   Mar14   0:00 /usr/bin/dbus-d
+root      1406  0.0  0.1  15848  3720 ?        Ssl  Mar14   0:00 /usr/sbin/Netwo
+root      1412  0.0  0.1   4180  2408 ?        S    Mar14   0:00 /usr/sbin/modem
+root      1426  0.0  0.0   4764  1724 ?        S    Mar14   0:00 /sbin/wpa_suppl
+root      1427  0.0  0.0   2332  1116 ?        S    Mar14   0:00 /sbin/dhclient
+root      1430  0.0  0.0   1704   608 ?        Ss   Mar14   0:00 /usr/sbin/acpid
+root      1446  0.0  0.2  11484  5192 ?        Ss   Mar14   0:02 /usr/sbin/apach
+root      1551  0.0  0.0   6824  1056 ?        Ss   Mar14   0:08 /usr/sbin/kerne
+daemon    1571  0.0  0.0   2160   416 ?        Ss   Mar14   0:00 /usr/sbin/atd
+avahi     1582  0.0  0.0   3088  1748 ?        S    Mar14   0:42 avahi-daemon: r
+avahi     1583  0.0  0.0   2840   476 ?        S    Mar14   0:00 avahi-daemon: c
+root      1594  0.0  0.0   4016  1788 ?        Ss   Mar14   0:00 /usr/sbin/bluet
+root      1603  0.0  0.0      0     0 ?        S    Mar14   0:00 [bluetooth]
+root      1608  0.0  0.0   5500   980 ?        Ss   Mar14   0:04 /usr/sbin/sshd
+root      1635  0.0  0.0   1876   628 ?        Ss   Mar14   0:00 /usr/sbin/inetd
+root      1648  0.0  0.1  16160  2636 ?        Sl   Mar14   0:00 /usr/sbin/gdm3
+root      1667  0.0  0.1  18408  3396 ?        Sl   Mar14   0:00 /usr/lib/gdm3/g
+root      1675  0.0  0.0      0     0 ?        S    Mar14   0:00 [kconservative]
+root      1676  0.0  0.0      0     0 ?        S    Mar14   0:00 [kconservative]
+root      1677  0.0  0.0      0     0 ?        S    Mar14   0:00 [kconservative]
+root      1678  0.0  0.0      0     0 ?        S    Mar14   0:00 [kconservative]
+root      1679  0.0  0.0      0     0 ?        S    Mar14   0:00 [iprt/0]
+root      1681  0.0  0.0      0     0 ?        S    Mar14   0:00 [iprt/1]
+root      1683  0.0  0.0      0     0 ?        S    Mar14   0:00 [iprt/2]
+root      1684  0.0  0.0      0     0 ?        S    Mar14   0:00 [iprt/3]
+root      1691  0.0  0.0      0     0 ?        S<   Mar14   0:00 [krfcommd]
+root      1731  0.0  0.0   3812   948 ?        Ss   Mar14   0:00 /usr/sbin/cron
+root      1742  0.0  0.6  19020 13376 tty7     Ss+  Mar14   0:07 /usr/bin/Xorg :
+root      1826  0.0  0.0   2680  1236 ?        S    Mar14   0:00 /bin/sh /usr/bi
+root      1863  0.0  0.0   2676  1036 ?        S<   Mar14   0:00 udevd --daemon
+root      1865  0.0  0.0   2676  1032 ?        S<   Mar14   0:00 udevd --daemon
+root      1960  0.0  0.1   6580  2400 ?        Ss   Mar14   0:00 /usr/sbin/cupsd
+root      1985  0.0  0.0      0     0 ?        S    Mar14   0:00 [rpciod/0]
+root      1986  0.0  0.0      0     0 ?        S    Mar14   0:00 [rpciod/1]
+root      1987  0.0  0.0      0     0 ?        S    Mar14   0:00 [rpciod/2]
+root      1988  0.0  0.0      0     0 ?        S    Mar14   0:00 [rpciod/3]
+root      2055  0.0  0.0      0     0 ?        S<   Mar14   0:00 [kslowd000]
+root      2056  0.0  0.0      0     0 ?        S<   Mar14   0:00 [kslowd001]
+mysql     2058  0.0  0.8 137192 18076 ?        Sl   Mar14   0:22 /usr/sbin/mysql
+root      2059  0.0  0.0   1672   564 ?        S    Mar14   0:00 logger -t mysql
+root      2061  0.0  0.0      0     0 ?        S    Mar14   0:00 [nfsiod]
+root      2074  0.0  0.0  38828   896 ?        Ssl  Mar14   0:00 /usr/lib/vmware
+root      2084  0.0  0.0      0     0 ?        S    Mar14   0:00 [lockd]
+root      2113  0.0  0.0   2196   544 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+root      2144  0.0  0.1  18424  3172 ?        Sl   Mar14   0:00 /usr/sbin/conso
+root      2222  0.0  0.0   2168   260 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+106       2272  0.0  0.0   2704   924 ?        Ss   Mar14   0:00 /usr/bin/dbus-d
+106       2273  0.0  0.3  30412  7864 ?        Ssl  Mar14   0:00 /usr/bin/gnome-
+root      2314  0.0  0.1   5480  2924 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+root      2534  0.0  0.0   2848  1012 ?        S    Mar14   0:00 /usr/bin/vmnet-
+root      2549  0.0  0.0   2168   256 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+102       2562  0.0  0.0   6540   928 ?        Ss   Mar14   0:00 /usr/sbin/exim4
+root      2570  0.0  0.1   5480  2928 ?        Ss   Mar14   0:00 /usr/bin/vmnet-
+106       2573  0.0  0.2   7864  4440 ?        S    Mar14   0:00 /usr/lib/libgco
+root      2596  0.0  0.0  12884   660 ?        Ss   Mar14   0:01 /usr/sbin/vmwar
+106       2708  0.0  0.2  15060  5120 ?        S    Mar14   0:01 /usr/lib/at-spi
+106       2725  0.0  0.5  83032 11792 ?        Ss   Mar14   0:03 /usr/lib/gnome-
+106       2737  0.0  0.1  25312  3200 ?        Ssl  Mar14   0:00 /usr/lib/bonobo
+106       2740  0.0  0.0   6716  1992 ?        S    Mar14   0:00 /usr/lib/gvfs/g
+106       2743  0.0  0.5  90232 10532 ?        S    Mar14   0:00 metacity
+106       2744  0.0  0.6  92016 14304 ?        S    Mar14   0:06 /usr/lib/gdm3/g
+106       2745  0.0  0.4  22824  8720 ?        S    Mar14   0:01 gnome-power-man
+106       2746  0.0  0.3  22404  7604 ?        S    Mar14   0:00 /usr/lib/policy
+root      2747  0.0  0.1   7940  2260 ?        S    Mar14   0:00 /usr/lib/gdm3/g
+root      2749  0.0  0.1   6100  3624 ?        S    Mar14   0:00 /usr/lib/policy
+root      2751  0.0  0.1   7884  3116 ?        S    Mar14   0:00 /usr/lib/upower
+root      2821  0.0  3.2 130436 68084 ?        Sl   Mar14   0:34 /usr/lib/vmware
+root      2837  0.0  0.0   1708   560 tty1     Ss+  Mar14   0:00 /sbin/getty 384
+root      2838  0.0  0.0   1708   560 tty2     Ss+  Mar14   0:00 /sbin/getty 384
+root      2839  0.0  0.0   1708   564 tty3     Ss+  Mar14   0:00 /sbin/getty 384
+root      2840  0.0  0.0   1708   560 tty4     Ss+  Mar14   0:00 /sbin/getty 384
+root      2841  0.0  0.0   1708   564 tty5     Ss+  Mar14   0:00 /sbin/getty 384
+root      2842  0.0  0.0   1708   564 tty6     Ss+  Mar14   0:00 /sbin/getty 384
+www-data  9085  0.0  0.1  10980  2432 ?        S    Mar15   0:00 /usr/sbin/apach
+www-data  9111  0.0  0.2 233380  4832 ?        Sl   Mar15   0:00 /usr/sbin/apach
+www-data  9167  0.0  0.2 233380  4852 ?        Sl   Mar15   0:00 /usr/sbin/apach
+root     31257  0.0  0.0   2088   936 ?        Ss   10:39   0:00 in.telnetd: hus
+root     31258  0.0  0.0   2992  1652 pts/0    Ss   10:39   0:00 login -h husky.
+1008     31262  0.0  0.3   9556  6892 pts/0    S    10:39   0:00 -bash
+1025     31291  0.0  0.0   4380  1516 pts/0    S    10:39   0:00 su - oceantuneu
+1025     31298  0.0  0.1   6692  4020 pts/0    S    10:39   0:00 -su
+root     31328  0.0  0.0   2088   936 ?        Ss   10:40   0:00 in.telnetd: hus
+root     31329  0.0  0.0   2992  1644 pts/1    Ss   10:40   0:00 login -h husky.
+1008     31334  0.0  0.3   9556  6888 pts/1    S    10:40   0:00 -bash
+1025     31363  0.0  0.0   4380  1516 pts/1    S    10:40   0:00 su - oceantuneu
+1025     31372  0.0  0.1   6692  4028 pts/1    S+   10:41   0:00 -su
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ ls /
+bin   data  etc   home2       lib	  media  opt   root  srv  tmp  var
+boot  dev   home  initrd.img  lost+found  mnt	 proc  sbin  sys  usr  vmlinuz
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ 

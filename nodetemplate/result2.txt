@@ -1,0 +1,429 @@
+Trying 137.99.1.212...
+Connected to mirror.engr.uconn.edu.
+Escape character is '^]'.
+Debian GNU/Linux 6.0
+mirror login: oceantune
+Password: 
+Last login: Wed Feb 25 18:36:26 EST 2015 from husky.engr.uconn.edu on pts/0
+Linux mirror 2.6.32-5-686 #1 SMP Mon Sep 23 23:00:18 UTC 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+]0;oceantune@mirror: ~oceantune@mirror:~$ cd /home/oceantune
+]0;oceantune@mirror: ~oceantune@mirror:~$ ls
+cleanprocess.sh  file  logfile  loop.sh
+]0;oceantune@mirror: ~oceantune@mirror:~$ echo abd
+abd
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ ps aux | grep ab
+root      1368  0.0  0.6  19068 13452 tty7     Ss+  Feb06   0:54 /usr/bin/Xorg :0 -br -verbose -audit 0 -novtswitch -auth /var/run/gdm3/auth-for-Debian-gdm-Qp17H9/database -nolisten tcp vt7
+abdullah 27945  0.0  0.0   2004   828 ?        Ss   Feb25   0:00 /usr/sbin/sshd                                                                                                                                                                                                                        ?
+1008     28437  0.0  0.0   3304   772 pts/0    S+   13:03   0:00 grep ab
+]0;oceantune@mirror: ~oceantune@mirror:~$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   2036   740 ?        Ss   Feb06   0:20 init [2]  
+root         2  0.0  0.0      0     0 ?        S    Feb06   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Feb06   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S    Feb06   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S    Feb06   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S    Feb06   0:00 [migration/1]
+root         7  0.0  0.0      0     0 ?        S    Feb06   0:00 [ksoftirqd/1]
+root         8  0.0  0.0      0     0 ?        S    Feb06   0:00 [watchdog/1]
+root         9  0.0  0.0      0     0 ?        S    Feb06   0:00 [migration/2]
+root        10  0.0  0.0      0     0 ?        S    Feb06   0:00 [ksoftirqd/2]
+root        11  0.0  0.0      0     0 ?        S    Feb06   0:00 [watchdog/2]
+root        12  0.0  0.0      0     0 ?        S    Feb06   0:00 [migration/3]
+root        13  0.0  0.0      0     0 ?        S    Feb06   0:00 [ksoftirqd/3]
+root        14  0.0  0.0      0     0 ?        S    Feb06   0:00 [watchdog/3]
+root        15  0.0  0.0      0     0 ?        S    Feb06   0:05 [events/0]
+root        16  0.0  0.0      0     0 ?        S    Feb06   0:09 [events/1]
+root        17  0.0  0.0      0     0 ?        S    Feb06   0:05 [events/2]
+root        18  0.0  0.0      0     0 ?        S    Feb06   0:05 [events/3]
+root        19  0.0  0.0      0     0 ?        S    Feb06   0:00 [cpuset]
+root        20  0.0  0.0      0     0 ?        S    Feb06   0:00 [khelper]
+root        21  0.0  0.0      0     0 ?        S    Feb06   0:00 [netns]
+root        22  0.0  0.0      0     0 ?        S    Feb06   0:00 [async/mgr]
+root        23  0.0  0.0      0     0 ?        S    Feb06   0:00 [pm]
+root        24  0.0  0.0      0     0 ?        S    Feb06   0:01 [sync_supers]
+root        25  0.0  0.0      0     0 ?        S    Feb06   0:01 [bdi-default]
+root        26  0.0  0.0      0     0 ?        S    Feb06   0:00 [kintegrityd/0]
+root        27  0.0  0.0      0     0 ?        S    Feb06   0:00 [kintegrityd/1]
+root        28  0.0  0.0      0     0 ?        S    Feb06   0:00 [kintegrityd/2]
+root        29  0.0  0.0      0     0 ?        S    Feb06   0:00 [kintegrityd/3]
+root        30  0.0  0.0      0     0 ?        S    Feb06   0:00 [kblockd/0]
+root        31  0.0  0.0      0     0 ?        S    Feb06   0:00 [kblockd/1]
+root        32  0.0  0.0      0     0 ?        S    Feb06   0:00 [kblockd/2]
+root        33  0.0  0.0      0     0 ?        S    Feb06   0:00 [kblockd/3]
+root        34  0.0  0.0      0     0 ?        S    Feb06   0:00 [kacpid]
+root        35  0.0  0.0      0     0 ?        S    Feb06   0:00 [kacpi_notify]
+root        36  0.0  0.0      0     0 ?        S    Feb06   0:00 [kacpi_hotplug]
+root        37  0.0  0.0      0     0 ?        S    Feb06   0:00 [kseriod]
+root        42  0.0  0.0      0     0 ?        S    Feb06   0:00 [kondemand/0]
+root        43  0.0  0.0      0     0 ?        S    Feb06   0:00 [kondemand/1]
+root        44  0.0  0.0      0     0 ?        S    Feb06   0:00 [kondemand/2]
+root        45  0.0  0.0      0     0 ?        S    Feb06   0:00 [kondemand/3]
+root        46  0.0  0.0      0     0 ?        S    Feb06   0:00 [khungtaskd]
+root        47  0.0  0.0      0     0 ?        S    Feb06   0:00 [kswapd0]
+root        48  0.0  0.0      0     0 ?        SN   Feb06   0:00 [ksmd]
+root        49  0.0  0.0      0     0 ?        S    Feb06   0:00 [aio/0]
+root        50  0.0  0.0      0     0 ?        S    Feb06   0:00 [aio/1]
+root        51  0.0  0.0      0     0 ?        S    Feb06   0:00 [aio/2]
+root        52  0.0  0.0      0     0 ?        S    Feb06   0:00 [aio/3]
+root        53  0.0  0.0      0     0 ?        S    Feb06   0:00 [crypto/0]
+root        54  0.0  0.0      0     0 ?        S    Feb06   0:00 [crypto/1]
+root        55  0.0  0.0      0     0 ?        S    Feb06   0:00 [crypto/2]
+root        56  0.0  0.0      0     0 ?        S    Feb06   0:00 [crypto/3]
+root       193  0.0  0.0      0     0 ?        S    Feb06   0:00 [ksuspend_usbd]
+root       194  0.0  0.0      0     0 ?        S    Feb06   0:00 [khubd]
+root       195  0.0  0.0      0     0 ?        S    Feb06   0:00 [ata/0]
+root       196  0.0  0.0      0     0 ?        S    Feb06   0:00 [ata/1]
+root       197  0.0  0.0      0     0 ?        S    Feb06   0:00 [ata/2]
+root       198  0.0  0.0      0     0 ?        S    Feb06   0:00 [ata/3]
+root       199  0.0  0.0      0     0 ?        S    Feb06   0:00 [ata_aux]
+root       202  0.0  0.0      0     0 ?        S    Feb06   0:00 [scsi_eh_0]
+root       203  0.0  0.0      0     0 ?        S    Feb06   0:00 [scsi_eh_1]
+root       206  0.0  0.0      0     0 ?        S    Feb06   0:00 [scsi_eh_2]
+root       207  0.0  0.0      0     0 ?        S    Feb06   0:00 [scsi_eh_3]
+root       254  0.0  0.0      0     0 ?        S    Feb06   0:00 [kstriped]
+root       271  0.0  0.0      0     0 ?        S    Feb06   0:00 [usbhid_resume]
+root       274  0.0  0.0      0     0 ?        S    Feb06   0:45 [kjournald]
+root       313  0.0  0.0      0     0 ?        S    Feb06   0:08 [flush-8:16]
+root       348  0.0  0.0   2548  1092 ?        S<s  Feb06   0:00 udevd --daemon
+root       595  0.0  0.0      0     0 ?        S    Feb06   0:14 [edac-poller]
+root       631  0.0  0.0      0     0 ?        S    Feb06   0:00 [nouveau/0]
+root       632  0.0  0.0      0     0 ?        S    Feb06   0:00 [nouveau/1]
+root       633  0.0  0.0      0     0 ?        S    Feb06   0:00 [nouveau/2]
+root       634  0.0  0.0      0     0 ?        S    Feb06   0:00 [nouveau/3]
+root       638  0.0  0.0      0     0 ?        S    Feb06   0:00 [ttm_swap]
+root       817  0.0  0.0      0     0 ?        S    Feb06   0:00 [firewire_sbp2]
+root       916  0.0  0.0      0     0 ?        S    Feb06   0:00 [kjournald]
+root       917  0.0  0.0      0     0 ?        S    Feb06   0:00 [kjournald]
+daemon     987  0.0  0.0   1812   544 ?        Ss   Feb06   0:00 /sbin/portmap
+statd      999  0.0  0.0   1940   812 ?        Ss   Feb06   0:00 /sbin/rpc.statd
+root      1253  0.0  0.0  28600  1484 ?        Sl   Feb06   0:58 /usr/sbin/rsysl
+root      1313  0.0  0.0  13240  1728 ?        Ss   Feb06   0:24 /usr/bin/vmware
+101       1316  0.0  0.0   2852  1136 ?        Ss   Feb06   0:00 /usr/bin/dbus-d
+root      1329  0.0  0.1  15848  3728 ?        Ssl  Feb06   0:00 /usr/sbin/Netwo
+root      1334  0.0  0.1   4180  2408 ?        S    Feb06   0:00 /usr/sbin/modem
+root      1341  0.0  0.0   4764  1724 ?        S    Feb06   0:00 /sbin/wpa_suppl
+root      1347  0.0  0.0   2332  1124 ?        S    Feb06   0:00 /sbin/dhclient
+root      1354  0.0  0.1  16160  2632 ?        Sl   Feb06   0:00 /usr/sbin/gdm3
+root      1364  0.0  0.1  14468  2260 ?        S    Feb06   0:00 /usr/lib/vmware
+root      1366  0.0  0.1  18408  3392 ?        Sl   Feb06   0:00 /usr/lib/gdm3/g
+root      1368  0.0  0.6  19068 13452 tty7     Ss+  Feb06   0:54 /usr/bin/Xorg :
+root      1372  0.0  0.0   1704   608 ?        Ss   Feb06   0:00 /usr/sbin/acpid
+root      1403  0.0  0.2  11600  5300 ?        Ss   Feb06   0:38 /usr/sbin/apach
+daemon    1470  0.0  0.0   2160   420 ?        Ss   Feb06   0:00 /usr/sbin/atd
+avahi     1482  0.0  0.0   3148  1840 ?        S    Feb06   8:22 avahi-daemon: r
+avahi     1483  0.0  0.0   2840   472 ?        S    Feb06   0:00 avahi-daemon: c
+root      1499  0.0  0.1  18424  3228 ?        Sl   Feb06   0:00 /usr/sbin/conso
+root      1565  0.0  0.0   4016  1792 ?        Ss   Feb06   0:00 /usr/sbin/bluet
+root      1578  0.0  0.0      0     0 ?        S    Feb06   0:00 [bluetooth]
+root      1581  0.0  0.0      0     0 ?        S<   Feb06   0:00 [krfcommd]
+106       1647  0.0  0.0   2704   920 ?        Ss   Feb06   0:00 /usr/bin/dbus-d
+106       1652  0.0  0.3  30412  7908 ?        Ssl  Feb06   0:00 /usr/bin/gnome-
+root      1678  0.0  0.0      0     0 ?        S    Feb06   0:00 [rpciod/0]
+root      1679  0.0  0.0      0     0 ?        S    Feb06   0:00 [rpciod/1]
+root      1680  0.0  0.0      0     0 ?        S    Feb06   0:00 [rpciod/2]
+root      1681  0.0  0.0      0     0 ?        S    Feb06   0:00 [rpciod/3]
+root      1682  0.0  0.0      0     0 ?        S<   Feb06   0:00 [kslowd000]
+root      1683  0.0  0.0      0     0 ?        S<   Feb06   0:00 [kslowd001]
+root      1688  0.0  0.0      0     0 ?        S    Feb06   0:00 [nfsiod]
+root      1694  0.0  0.0      0     0 ?        S    Feb06   0:00 [lockd]
+root      1709  0.0  0.0   3812   952 ?        Ss   Feb06   0:01 /usr/sbin/cron
+106       1720  0.0  0.2   7772  4436 ?        S    Feb06   0:06 /usr/lib/libgco
+root      1734  0.0  0.1   6580  2640 ?        Ss   Feb06   0:00 /usr/sbin/cupsd
+106       1747  0.0  0.2  15060  5124 ?        S    Feb06   0:13 /usr/lib/at-spi
+root      1752  0.0  0.0   6824  1064 ?        Ss   Feb06   2:04 /usr/sbin/kerne
+106       1754  0.0  0.5  83048 12036 ?        Ss   Feb06   0:28 /usr/lib/gnome-
+root      1817  0.0  0.0   1876   620 ?        Ss   Feb06   0:00 /usr/sbin/inetd
+root      1827  0.0  0.0      0     0 ?        S    Feb06   0:00 [iprt/0]
+root      1828  0.0  0.0      0     0 ?        S    Feb06   0:00 [iprt/1]
+root      1829  0.0  0.0      0     0 ?        S    Feb06   0:00 [iprt/2]
+root      1830  0.0  0.0      0     0 ?        S    Feb06   0:00 [iprt/3]
+root      1839  0.0  0.0      0     0 ?        S    Feb06   0:00 [kconservative]
+root      1840  0.0  0.0      0     0 ?        S    Feb06   0:00 [kconservative]
+root      1841  0.0  0.0      0     0 ?        S    Feb06   0:00 [kconservative]
+root      1842  0.0  0.0      0     0 ?        S    Feb06   0:00 [kconservative]
+root      1848  0.0  0.0   5500   980 ?        Ss   Feb06   0:43 /usr/sbin/sshd
+root      1884  0.0  0.0   2680  1232 ?        S    Feb06   0:00 /bin/sh /usr/bi
+106       2010  0.0  0.1  25312  3200 ?        Ssl  Feb06   0:00 /usr/lib/bonobo
+mysql     2044  0.0  0.8 137192 18072 ?        Sl   Feb06   4:17 /usr/sbin/mysql
+root      2045  0.0  0.0   1672   564 ?        S    Feb06   0:00 logger -t mysql
+106       2099  0.0  0.0   6716  1992 ?        S    Feb06   0:00 /usr/lib/gvfs/g
+root      2136  0.0  0.0  39852   904 ?        Ssl  Feb06   0:00 /usr/lib/vmware
+106       2142  0.0  0.5  89316 10624 ?        S    Feb06   0:07 metacity
+root      2165  0.0  0.0   2196   540 ?        Ss   Feb06   0:00 /usr/bin/vmnet-
+106       2172  0.0  0.7  92152 14528 ?        S    Feb06   1:25 /usr/lib/gdm3/g
+106       2173  0.0  0.4  22824  8788 ?        S    Feb06   0:17 gnome-power-man
+root      2174  0.0  0.1   7940  2264 ?        S    Feb06   0:00 /usr/lib/gdm3/g
+106       2175  0.0  0.3  22404  7612 ?        S    Feb06   0:00 /usr/lib/policy
+root      2180  0.0  0.1   7872  3108 ?        S    Feb06   0:00 /usr/lib/upower
+root      2182  0.0  0.1   6108  3624 ?        S    Feb06   0:00 /usr/lib/policy
+root      2289  0.0  0.0   2168   256 ?        Ss   Feb06   0:00 /usr/bin/vmnet-
+102       2554  0.0  0.0   6536   928 ?        Ss   Feb06   0:00 /usr/sbin/exim4
+root      2561  0.0  0.1   5480  2924 ?        Ss   Feb06   0:00 /usr/bin/vmnet-
+root      2565  0.0  0.0   2848   996 ?        S    Feb06   0:08 /usr/bin/vmnet-
+root      2575  0.0  0.0   2168   256 ?        Ss   Feb06   0:00 /usr/bin/vmnet-
+root      2583  0.0  0.1   5480  2924 ?        Ss   Feb06   0:00 /usr/bin/vmnet-
+root      2618  0.0  0.0  12884   664 ?        Ss   Feb06   0:21 /usr/sbin/vmwar
+root      2755  0.0  3.2 129688 67860 ?        Sl   Feb06   6:40 /usr/lib/vmware
+root      2771  0.0  0.0   1708   560 tty1     Ss+  Feb06   0:00 /sbin/getty 384
+root      2772  0.0  0.0   1708   556 tty2     Ss+  Feb06   0:00 /sbin/getty 384
+root      2773  0.0  0.0   1708   556 tty3     Ss+  Feb06   0:00 /sbin/getty 384
+root      2774  0.0  0.0   1708   560 tty4     Ss+  Feb06   0:00 /sbin/getty 384
+root      2775  0.0  0.0   1708   564 tty5     Ss+  Feb06   0:00 /sbin/getty 384
+root      2776  0.0  0.0   1708   560 tty6     Ss+  Feb06   0:00 /sbin/getty 384
+root      3789  0.0  0.0   2544  1028 ?        S<   Feb18   0:00 udevd --daemon
+root      3790  0.0  0.0   2544   892 ?        S<   Feb18   0:00 udevd --daemon
+www-data  4279  0.0  0.1  11096  2632 ?        S    Feb22   0:00 /usr/sbin/apach
+www-data  4282  0.0  0.2 233588  5752 ?        Sl   Feb22   0:00 /usr/sbin/apach
+www-data  4350  0.0  0.2 233548  5720 ?        Sl   Feb22   0:00 /usr/sbin/apach
+abdullah 27945  0.0  0.0   2004   828 ?        Ss   Feb25   0:00 /usr/sbin/sshd 
+root     28385  0.0  0.0   2088   940 ?        Ss   13:02   0:00 in.telnetd: hus
+root     28386  0.1  0.0   2992  1644 pts/0    Ss   13:02   0:00 login -h husky.
+1008     28397  1.2  0.3   9556  6892 pts/0    S    13:03   0:00 -bash
+root     28434  1.4  0.1   7404  2784 ?        Ss   13:03   0:00 sshd: root [pri
+sshd     28435  0.1  0.0   6844  1176 ?        S    13:03   0:00 sshd: root [net
+1008     28438  0.0  0.0   3872  1052 pts/0    R+   13:03   0:00 ps aux
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sdb1              56G   37G   16G  71% /
+tmpfs                1013M     0 1013M   0% /lib/init/rw
+udev                 1008M  256K 1008M   1% /dev
+tmpfs                1013M     0 1013M   0% /dev/shm
+/dev/sdb3              89G   41G   43G  49% /home
+/dev/sda1             147G  7.5G  132G   6% /home2
+husky:/mnt/backup     917G  824G   47G  95% /mnt/husky-nfs
+137.99.1.130:/volume1/Backup
+                       37T  1.1T   36T   3% /mnt/uwsn-nas
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ ls /
+[0m[01;34mbin[0m   [01;34mdata[0m  [01;34metc[0m   [30;42mhome2[0m       [01;34mlib[0m         [01;34mmedia[0m  [01;34mopt[0m   [01;34mroot[0m  [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34mdev[0m   [01;34mhome[0m  [01;36minitrd.img[0m  [01;34mlost+found[0m  [01;34mmnt[0m    [01;34mproc[0m  [01;34msbin[0m  [01;34msys[0m  [01;34musr[0m  [01;36mvmlinuz[0m
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ ls / -l
+total 96
+drwxr-xr-x   2 root root  4096 Aug 18  2014 [0m[01;34mbin[0m
+drwxr-xr-x   3 root root  4096 Apr  8  2014 [01;34mboot[0m
+drwxr-xr-x  11 root root  4096 Dec  3 11:05 [01;34mdata[0m
+drwxr-xr-x  19 root root  3640 Feb 18 15:07 [01;34mdev[0m
+drwxr-xr-x 140 root root 12288 Feb 26 16:24 [01;34metc[0m
+drwxr-xr-x  18 root root  4096 Feb 26 11:31 [01;34mhome[0m
+drwxrwxrwt  12 root root  4096 Feb 12 16:54 [30;42mhome2[0m
+lrwxrwxrwx   1 root root    28 Apr 14  2013 [01;36minitrd.img[0m -> boot/initrd.img-2.6.32-5-686
+drwxr-xr-x  13 root root 12288 Apr 24  2013 [01;34mlib[0m
+drwx------   2 root root 16384 Apr 14  2013 [01;34mlost+found[0m
+drwxr-xr-x   6 root root  4096 Sep 13 16:37 [01;34mmedia[0m
+drwxr-xr-x   5 root root  4096 Feb 26 11:41 [01;34mmnt[0m
+drwxr-xr-x   2 root root  4096 Apr 14  2013 [01;34mopt[0m
+dr-xr-xr-x 179 root root     0 Feb  6 12:58 [01;34mproc[0m
+drwx------  17 root root  4096 Feb 26 16:24 [01;34mroot[0m
+drwxr-xr-x   2 root root  4096 Apr  8  2014 [01;34msbin[0m
+drwxr-xr-x   3 root root  4096 May 12  2013 [01;34msrv[0m
+drwxr-xr-x  12 root root     0 Feb  6 12:58 [01;34msys[0m
+drwxrwxrwt   8 root root  4096 Feb 27 13:05 [30;42mtmp[0m
+drwxr-xr-x  11 root root  4096 Apr 14  2013 [01;34musr[0m
+drwxr-xr-x  15 root root  4096 Apr 28  2013 [01;34mvar[0m
+lrwxrwxrwx   1 root root    25 Apr 14  2013 [01;36mvmlinuz[0m -> boot/vmlinuz-2.6.32-5-686
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ clear
+[H[2J]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ ls
+cleanprocess.sh  file  logfile  loop.sh
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ ls -lh
+total 16K
+-rw-r--r-- 1 oceantune oceantune 29 Jan 14 13:00 cleanprocess.sh
+-rw-r--r-- 1 oceantune oceantune  7 Jul 26  2014 file
+-rw-r--r-- 1 root      root      76 Jan  8 12:15 logfile
+-rw-r--r-- 1 oceantune oceantune 54 Jan 14 12:30 loop.sh
+]0;oceantune@mirror: ~oceantune@mirror:~$ tail -n 1 logfile
+####I need the bathroom now
+]0;oceantune@mirror: ~oceantune@mirror:~$ su - oceantune
+Password: 
+]0;oceantune@mirror: ~oceantune@mirror:~$ sh cleanprocess.sh
+]0;oceantune@mirror: ~oceantune@mirror:~$ su - oceantuneuser
+Password: 
+oceantuneuser@mirror:~$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:~$ cd ..
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ tail -n 1 logfile
+tail: cannot open `logfile' for reading: No such file or directory
+oceantuneuser@mirror:/home2$ vi somefile.txt
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"somefile.txt" [New File][>c[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1Hl -n 1 logfile[2;1H[K[24;63H2[2;1H[?12l[?25h[?25ltail -n 1 logfile[3;1H[K[24;63H3[3;1H[?12l[?25h[?25ltail -n 1 logfile[4;1H[K[24;63H4[4;1H[?12l[?25h[?25ltail -n 1 logfile[5;1H[K[24;63H5[5;1H[?12l[?25h[?25ltail -n 1 logfile[6;1H[K[24;63H6[6;1H[?12l[?25h[?25ltail -n 1 logfile[7;1H[K[24;63H7[7;1H[?12l[?25h[?25ltail -n 1 logfile[8;1H[K[24;63H8[8;1H[?12l[?25h[?25ltail -n 1 logfile[9;1H[K[24;63H9[9;1H[?12l[?25h[?25ltail -n 1 logfile[10;1H[K[24;63H10,1[10;1H[?12l[?25h[?25ltail -n 1 logfile[11;1H[K[24;64H1[11;1H[?12l[?25h[?25ltail -n 1 logfile[12;1H[K[24;64H2[12;1H[?12l[?25h[?25ltail -n 1 logfile[13;1H[K[24;64H3[13;1H[?12l[?25h[?25ltail -n 1 logfile[14;1H[K[24;64H4[14;1H[?12l[?25h[?25ltail -n 1 logfile[15;1H[K[24;64H5[15;1H[?12l[?25h[?25ltail -n 1 logfile[16;1H[K[24;64H6[16;1H[?12l[?25h[?25ltail -n 1 logfile[17;1H[K[24;64H7[17;1H[?12l[?25h[?25ltail -n 1 logfile[18;1H[K[24;64H8[18;1H[?12l[?25h[?25ltail -n 1 logfile[19;1H[K[24;64H9[19;1H[?12l[?25h[?25ltail -n 1 logfile[20;1H[K[24;63H20[20;1H[?12l[?25h[?25ltail -n 1 logfile[21;1H[K[24;64H1[21;1H[?12l[?25h[?25ltail -n 1 logfile[22;1H[K[24;64H2[22;1H[?12l[?25h[?25ltail -n 1 logfile[23;1H[K[24;64H3[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H24,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H25,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H26,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H27,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H28,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H29,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H30,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H31,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H32,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H33,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H34,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H35,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H36,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H37,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H38,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H39,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H40,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H41,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H42,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H43,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H44,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H45,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H46,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H47,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H48,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H49,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H50,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H51,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H52,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H53,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H54,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H55,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H56,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H57,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H58,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H59,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H60,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H61,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H62,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H63,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H64,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H65,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H66,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H67,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H68,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H69,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H70,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H71,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H72,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H73,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H74,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H75,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H76,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H77,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H78,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H79,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H80,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H81,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H82,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H83,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H84,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H85,1[10CBot[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[22;1Htail -n 1 logfile[24;63H[K[24;63H86,1[10CBot[23;1H[?12l[?25h
