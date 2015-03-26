@@ -1,5 +1,5 @@
 <snippet>
-# ${OceanTune GUI telnet scripts}
+# OceanTune GUI telnet scripts
 
 On the back-end, there are two main components consisting the server side software, remote control module and environment monitoring module. To achieve remote control, a virtual telnet connection is built in the web-based GUI with time management and user control. Underwater environment monitoring module is implemented to collect sensing data from the nodes equipped with sensors. The connection between server and acoustic nodes is multiplexed so that data collections and remote control works parallelly.
 
@@ -9,11 +9,50 @@ Sensing data with certain format will be parsed by background program periodical
 
 ## Installation
 
-TODO: Describe the installation process
+Before installation, a telnet connection should be built between web-server and target system. It would be suggested that you could test the your telnet connection. 
+
+```
+telnet <target system ip address>
+Type your account name
+Password:
+```
+
+Simply downloading this repo and under the local clone path you could run the command to initiate a telnet connection to remote machine.
+
+```
+sh start.sh <target system ip address> <node ID>
+```
+ 
+where ` <target system ip address>` is the IP address of the target system and `<node ID>` is a node ID which is stored in the database. For example, if we use Husky server husky.engr.uconn.edu as our web server and telnet to Mirror server mirror.engr.uconn.edu. And the node ID is 65. Then we should type `sh start.sh mirror.engr.uconn.edu 65`  
+ 
+This command could be run in the background and forwards all the information to a logfile.
+```
+sh start.sh <target system ip address> >>> logfile.txt &
+```
 
 ## Usage
 
-TODO: Write usage instructions
+This is the structure of files 
+
+```
+nodetemplate/
+├── clean_task.sql
+├── mysql_connect_clean.sh
+├── mysql_connect.sh
+├── newest_cmd.sql
+├── README
+└── telnet_none_filtering.sh
+README.md [error opening dir]
+start.sh [error opening dir]
+```
+
+Linux shell script start.sh will copy 
+
+## Scripts
+
+### start.sh
+
+###
 
 ## Contributing
 
