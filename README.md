@@ -27,12 +27,16 @@ where ` <target system ip address>` is the IP address of the target system and `
  
 This command could be run in the background and forwards all the information to a logfile.
 ```
-sh start.sh <target system ip address> >>> logfile.txt &
+sh start.sh <target system ip address1> <node ID> >>> logfile1.txt &
+sh start.sh <target system ip address2> <node ID> >>> logfile2.txt &
 ```
 
-## Usage
+After the back-end telnet shell scripts is running, you could type commands on the `<OceanTune GUI URL>/cmd.php?nodeid=65` in your browser. Note that it supports multiple telnet connections at the same time. 
 
-This is the structure of files 
+## start.sh 
+
+Before we introduce every scripts code, we talks about what doese `start.sh` do. 
+This is the structure of this repo, 
 
 ```
 nodetemplate/
@@ -42,17 +46,54 @@ nodetemplate/
 ├── newest_cmd.sql
 ├── README
 └── telnet_none_filtering.sh
-README.md [error opening dir]
-start.sh [error opening dir]
+README.md 
+start.sh 
 ```
 
-Linux shell script start.sh will copy 
+When you type `sh start.sh <target system ip address> <node ID>`, Linux shell script start.sh will create a node folder with name `node<node ID>` and copy all the files in folder `nodetemplate` to it. In addtion, keyword `IPADDRESS` in scripts in `nodetemplate` will be replaced by specific ip address `<target system ip address>` you typed and NODEID by `<node ID>` you typed. 
+
+For example, after you type the command `sh start.sh mirror.engr.uconn.edu 65`, the file structure will be like:
+
+node65/
+├── clean_task.sql
+├── mysql_connect_clean.sh
+├── mysql_connect.sh
+├── newest_cmd.sql
+├── README
+└── telnet_none_filtering.sh
+nodetemplate/
+├── clean_task.sql
+├── mysql_connect_clean.sh
+├── mysql_connect.sh
+├── newest_cmd.sql
+├── README
+└── telnet_none_filtering.sh
+start.sh 
+README.md 
+
+Then start.sh will run the `telnet_none_filtering.sh` in folder `node65` to build the telnet connection to `mirror.engr.uconn.edu`. You could also manually run 
+`telnet_none_filtering.sh` to start the telnet connection. It's recommended thatyou use start.sh to initiate the telnet connection except you did some node-specific operation of some scripts inside node's folder, in which case you should manually run `telnet_none_filter.sh`. It's because `start.sh` will remove and re-create a folder if folder with same name is detected.
 
 ## Scripts
+When a new command in the database should be fetched, the call sequence of script is:
+``` 
+telnet_none_filtering.sh --> mysql_connect.sh --> newest_cmd.sql
+```
 
-### start.sh
+`telnet_none_filtering.sh` will call mysql_connect.sh as a script to output the newest command and that command is stored as a variable `var` in this script. If no new command is stored in the database, then that variable `var` is empty and `telnet_none_filtering.sh` checks if sensing data should be parsed or user schedules expires. Otherwise, this new command will be output throught linux pipe to telnet. The output of telnet is forwarded though pipe to `tee` which send the output to both user's terminal and text file `result2.txt`. 
 
-###
+When user schedule expires, the call sequence of script is:
+```
+telnet_none_filtering.sh --> mysql_connect_clean.sh --> clean_task.sql
+```
+
+If user schedule expires, which means the end timestamp of user schedule is larger than the timestamp now, `clean_task.sql` will output the user name whose scheulde expire. Note that this script will not return admin ad user name. 
+
+Once `telnet_none_filtering.sh` gets the user name whose schedule expires, it will kill all the processed created by this user.
+
+## TODO lists
+
+1. The user management/login php code is insecure at all.
 
 ## Contributing
 
