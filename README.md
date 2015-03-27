@@ -54,6 +54,7 @@ When you type `sh start.sh <target system ip address> <node ID>`, Linux shell sc
 
 For example, after you type the command `sh start.sh mirror.engr.uconn.edu 65`, the file structure will be like:
 
+```
 node65/
 ├── clean_task.sql
 ├── mysql_connect_clean.sh
@@ -70,6 +71,7 @@ nodetemplate/
 └── telnet_none_filtering.sh
 start.sh 
 README.md 
+```
 
 Then start.sh will run the `telnet_none_filtering.sh` in folder `node65` to build the telnet connection to `mirror.engr.uconn.edu`. You could also manually run 
 `telnet_none_filtering.sh` to start the telnet connection. It's recommended thatyou use start.sh to initiate the telnet connection except you did some node-specific operation of some scripts inside node's folder, in which case you should manually run `telnet_none_filter.sh`. It's because `start.sh` will remove and re-create a folder if folder with same name is detected.
