@@ -93,6 +93,155 @@ If user schedule expires, which means the end timestamp of user schedule is larg
 
 Once `telnet_none_filtering.sh` gets the user name whose schedule expires, it will kill all the processed created by this user.
 
+
+## Command Track (from browser to MySQL database)
+
+Now, let's look into the code how a command typed in the user browser is sent to remote system through telnet connection and finally display the response using php code. The steps would be: login on login.php as admin, assign user a time slot, type a command on cmd.php, command sent to cmd_request.php, store in database, sent by back-end scripts, display respond on cmd.php. We will show the code that actually executed in these steps with explantion.
+
+At the beginning, user will log on the system using their account. User privilege 0 corresponds to admin, 3 corresponds to user:
+
+```
+// login.php
+if(!($_REQUEST['username']=== NULL) ){//login~~~
+	while ( $row = mysql_fetch_array($result)) {
+		echo $row["user_id"]." ".$row["user_name"]." <br />";
+		if($row["user_name"]==$_REQUEST['username']){
+			if($row["passcode"]==$_REQUEST['passcode']){
+				$_SESSION['username'] = $_REQUEST['username'];
+				$_SESSION['userflag'] = $row["privilege"];
+				echo "SUCESS!Welcome ";
+				if($_SESSION['userflag'] == '0') echo "Admin ";
+				echo $_SESSION['username'];
+				break;
+			}
+		}
+	}
+}
+else{
+	echo "Please Login!";	
+}
+```
+
+After we login as admin, the next steps is to assign user a specific time slot (Only admin is allowed to do so).
+
+Here we need to check if there is time slots overlapping with others. If there is overlapped period, then we could not insert such a time slot.
+
+```
+//schedule_admin.php
+
+if (!is_null($_REQUEST['username']) && !is_null($_REQUEST['starttime']) && !is_null($_REQUEST['hours']) && !is_null($_REQUEST['node']) ) {
+	if($_SESSION['userflag']==0) {
+		
+		$starttime = strtotime($_REQUEST['starttime']);
+		
+		$endtime = date( "Y-m-d H:i:s", strtotime($_REQUEST['starttime']) + $_REQUEST['hours'] * 3600 );
+						
+		$result2 = mysql_query("SELECT * FROM schedule WHERE node=".$_REQUEST['node'], $connection);
+		while($row2 = mysql_fetch_array($result2)) {
+			$starttime2 = strtotime($row2['starttime']);
+			$endtime2 = strtotime($row2['endtime']);
+			//var_dump($starttime>$endtime2);
+			//echo "<br>";
+			//var_dump(strtotime($_REQUEST['starttime']) + $_REQUEST['hours'] * 3600>$starttime2);
+			//echo "<br>";
+			if(($starttime-$endtime2)*(strtotime($_REQUEST['starttime']) + $_REQUEST['hours'] * 3600-$starttime2) <=0 ) {
+				die("Invalid schedule. Time slot overlapped.");	
+			}
+		}
+		
+		$result3 = mysql_query("INSERT INTO schedule (username, starttime, endtime, node) VALUES ('".$_REQUEST['username']."', '".$_REQUEST['starttime']."','".$endtime."',".$_REQUEST['node'].")");	
+		if(!$result3) {
+			die('Invalid Query:'.mysql_error());	
+		}
+		echo "You have added a new time slot.<br />";
+	}
+	else{
+		echo "Permission Denied! Please contact administraters! <br />";
+	}
+}
+```
+
+Successfully assign user time slots, then login as that user. So we could now type a command on cmd.php.
+
+Javascript function send_cmd(frm, kCmd) will be called in this step. The command user typed in the will be sent using ajax to web server. After that command is sent, this page will refresh in 1000ms so that the response could be display. We will look in to the code for display reponse later.
+
+```
+//cmd.php
+
+function send_cmd(frm, kCmd)
+{
+	xmlhttp=new XMLHttpRequest();
+	xmlhttp.onreadystatechange=function()
+	{
+	  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			console.log("remote:"+xmlhttp.responseText);
+			if(xmlhttp.responseText.indexOf("Permission denied") > -1) {
+				alert("Permission denied. Please ask administrator for next avaialble time slots.");
+			}
+		}
+	}
+	
+	if(kCmd){
+		cmd=""	//empty for now
+	}
+	else{
+		cmd=frm.command.value;
+	}
+	xmlhttp.open("GET","cmd_request.php?q="+cmd,true);
+	xmlhttp.send();
+	
+	setTimeout(function(){window.location.href="cmd.php"}, 1000);
+}
+```
+
+This is the php code for parsing the ajax request.
+The command stores in `$q` will be inserted into the MySQL database in table commmand_list.
+
+```
+//cmd_request.php
+
+$insert_cmd_result = mysql_query("INSERT INTO command_list (command, create_time, username)
+	VALUES ('".$q."', '".date('Y-m-d H:i:s', strtotime("now"))."','"."developer"."')");
+if(!$insert_cmd_result) {
+	die("Insert cmd failed! ".mysql_error());
+} else {
+    echo "Succeed";	
+}
+```
+
+At this point, the command is already sent to the MySQL database on the webserver, with timestamp and corresponding node ID.
+
+## Command Track (from database to telnet)
+
+```
+
+```
+
+## Command Track (display response)
+
+The `cmd.php` code display the result.txt file which contains the response the telnet scripts.
+In the newer version, we also format the response into html table `<table></table>` so that the content looks aligned.
+```
+//cmd.php
+
+$file = "/home/xiaoyan/result2.txt";
+$file = escapeshellarg($file); // for the security concious (should be everyone!)
+$line100 = `tail -n 300 $file | grep -v 'tail -n 1 logfile' | grep -v 'bathroom' | grep -v 'logfile' | grep -v 'oceantune' | grep -v 'clean'  `;
+	
+$dictionary = array(
+	'[0m' => '',
+	'[01;34m' => '',
+	'[30;42' => '',
+	']0;'   => '' ,
+	'[01;36m' => '' ,
+);
+$htmlString = str_replace(array_keys($dictionary), $dictionary, $line100);
+
+echo nl2br(htmlspecialchars($htmlString));
+```
+
+
 ## TODO lists
 
 1. The user management/login php code is insecure at all.
