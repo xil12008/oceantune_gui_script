@@ -35,6 +35,9 @@ while [  $COUNTER -lt 10 ]; do
           sleep 1 
           echo 'whatever'
       fi
+   elif [ "$var" = "ctrlplusc" ]
+   then
+	echo $'\cc' 
    else 
       echo $var
    fi
